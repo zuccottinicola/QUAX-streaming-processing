@@ -216,3 +216,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Dati grezzi (mai su git — sono su S3)
+*.dat
+*.bin
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Credenziali e config locali
+.env
+config/local_settings.yaml
+*.pem
+*.key
+
+# Dask
+dask-worker-space/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
